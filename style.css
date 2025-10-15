@@ -1,0 +1,108 @@
+/* Estilo geral */
+body {
+  background-color: #f5f3f9; 
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(135deg, #6298df, #80c3f3);
+  color: #ecf5fc;
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+/* Menu */
+nav {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: #469dd6;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #cdd8e2;
+  text-decoration: underline;
+}
+
+/* Container das seções */
+main {
+  max-width: 900px;
+  background-color:white;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center; /* centraliza o texto */
+}
+
+/* Títulos das seções */
+section h2 {
+  color: #41a9e6;
+  border-bottom: 2px solid #9fcbf0;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Parágrafos */
+p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Imagens */
+img {
+  max-width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  margin: 20px auto;
+  display: block;
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #cae0f8;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #6298df;
+  color: #fff;
+  font-size: 0.9em;
+  width: 100%;
+  margin-top: 30px;
+}
